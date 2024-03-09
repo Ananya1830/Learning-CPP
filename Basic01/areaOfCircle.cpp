@@ -5,7 +5,7 @@ int main()
 {
   float pi =  3.141;
 
-  int radius;
+  int radius ;
   cout << "Enter the radius of circle \n";
   cin >> radius;
 
