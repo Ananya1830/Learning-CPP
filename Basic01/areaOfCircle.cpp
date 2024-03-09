@@ -1,9 +1,9 @@
 #include <iostream>
-#include <cmath>
+#include <math.h>
 using namespace std;
 int main()
 {
-  float pi = 3.141;
+  float pi =  3.141;
 
   int radius;
   cout << "Enter the radius of circle \n";
