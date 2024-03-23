@@ -30,6 +30,9 @@ int main(){
         case 7:
         cout << "Day is Saturday";
         break;
+        default:
+        cout << "Enter number between 1-7";
+        break;
     }
 
 }
