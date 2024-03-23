@@ -32,7 +32,7 @@ int main(){
         break;
         default:
         cout << "Enter number between 1-7";
-        break;
+       
     }
 
 }
