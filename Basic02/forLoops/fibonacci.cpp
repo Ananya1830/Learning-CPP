@@ -1,14 +1,28 @@
 #include <iostream>
 using namespace std;
 int main (){
-    int num =10 ;
+    
+    int num ;
+    cout << "Enter a number: ";
+    cin >> num;
+
     int first = 0 , second = 1 ;
     int next;
-    for (int i= 1 ; i < num ; i++) {
-         next = first + second;
+
+    if (num == 1) {
+        cout << first << endl;
+         }
+         else if (num == 2) {
+            cout << second << endl;
+         } else {
+            
+        for (int i= 3 ; i <= num ; i++) {
+        next = first + second;
         first = second;
         second = next;
        
-        cout << next << endl;
     }
+    
+}
+cout << next << endl;
 }
